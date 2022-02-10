@@ -19,3 +19,7 @@ Logging into the ieng6 account after doing this and compiling and running the te
 ![Image][13]
 
 [13]: 3.png
+
+__Step 3__
+
+Combining scp, ;, and ssh to copy the whole directory and run the tests in one line.
