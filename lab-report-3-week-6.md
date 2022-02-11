@@ -23,6 +23,9 @@ Logging into the ieng6 account after doing this and compiling and running the te
 __Step 3__
 
 Combining scp, ;, and ssh to copy the whole directory and run the tests in one line.
+First I deleted markdown-parse-1 from the server.
+Then combine all codes as one line:
+scp -r . yig017@ieng6.ucsd.edu:~/markdown-parse-1; ssh yig017@ieng6.ucsd.edu "cd markdown-parse-1; javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java;java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest"
 
 ![Image][14]
 
