@@ -23,3 +23,11 @@ Logging into the ieng6 account after doing this and compiling and running the te
 __Step 3__
 
 Combining scp, ;, and ssh to copy the whole directory and run the tests in one line.
+
+![Image][14]
+
+[14]: 4.png
+
+![Image][15]
+
+[15]: 5.png
