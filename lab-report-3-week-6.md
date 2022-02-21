@@ -16,9 +16,9 @@ Logging into the ieng6 account after doing this and compiling and running the te
 
 [12]: 2.png
 
-![Image][13]
+![Image][16]
 
-[13]: 3.png
+[16]: 6.png
 
 __Step 3__
 
